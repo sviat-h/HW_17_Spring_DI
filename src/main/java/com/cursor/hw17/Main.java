@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ClassConfig.class);
 
-        context.getBean(Timer.class).showRealTime();
+        context.getBean(Timer.class);
     }
 }
